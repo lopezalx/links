@@ -1,0 +1,72 @@
+
+
+body{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-image: url(images\ /snowy.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.banner-image{
+  width: 128px;
+  height: 128px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.thumbnail{
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.name{
+  background-color: aliceblue;
+  color: #272343;
+  display:flex;
+  justify-content:center;
+}
+
+.banner{
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons{
+  display: flex;
+  justify-content: space-around;
+}
+
+.social-icons a{
+  background-color: aliceblue;
+  color: #272343;
+  text-decoration: none;
+}
+
+.link{
+  background-color: aliceblue;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  
+}
+
+.link a{
+  color:#272343;
+  text-decoration: none;
+  text-align: center;
+  flex-grow:1;
+}
+
+.items{
+  display:flex;
+  flex-direction:column;
+  gap:30px;
+  max-width: 640px;
+  flex-grow:1;
+}
